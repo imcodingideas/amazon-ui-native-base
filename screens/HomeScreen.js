@@ -33,6 +33,19 @@ const HomeScreen = () => {
           </Item>
         </View>
       </View>
+
+    <Content style={{ backgroundColor: '#d5d5d6', marginTop: 70 }}>
+
+      <View style={{height: 50, backgroundColor: 'white', flexDirection: 'row', paddingHorizontal: 5, alignItems: 'center', justifyContent: 'space-between'}}>
+        <Text>Hello, Joseph Chambers</Text>
+        <Text style={{flexDirection: 'row'}}>
+          <Text>You Account </Text>
+          <Icon name="arrow-forward" style={{ fontSize: 18 }} />
+        </Text>
+      </View>
+
+    </Content>
+
     </Container>
   );
 };
